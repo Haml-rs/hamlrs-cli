@@ -11,7 +11,7 @@ fn main() {
     let m = App::new("Hamlrs")
         .version(version)
         .author("Jon Hartwell <jon@dontbreakthebuild.com>")
-        .about("Convert Haml to HTML using haml-rs version 0.3.0")
+        .about("Convert Haml to HTML using haml-rs version 0.4.0")
         .arg(Arg::with_name("INPUT").index(1))
         .arg(Arg::with_name("OUTPUT").index(2))
         .subcommand(
