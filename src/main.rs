@@ -7,11 +7,11 @@ use std::io;
 use std::io::prelude::*;
 
 fn main() {
-    let version = "0.3.0";
+    let version = "0.1.1";
     let m = App::new("Hamlrs")
         .version(version)
         .author("Jon Hartwell <jon@dontbreakthebuild.com>")
-        .about("Convert Haml to HTML")
+        .about("Convert Haml to HTML using haml-rs version 0.3.0")
         .arg(Arg::with_name("INPUT").index(1))
         .arg(Arg::with_name("OUTPUT").index(2))
         .subcommand(

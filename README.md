@@ -1,8 +1,8 @@
 # Hamlrs-Cli
 
-[![](https://img.shields.io/crates/v/hamlrs-cli.svg?maxAge=25920)](https://crates.io/crates/hamlrs-cli) ![Travis CI Build Status](https://travis-ci.org/jhartwell/haml-rs.svg?branch=master)
+[![](https://img.shields.io/crates/v/hamlrs-cli.svg?maxAge=25920)](https://crates.io/crates/hamlrs-cli) ![Travis CI Build Status](https://travis-ci.org/Haml-rs/hamlrs-cli.svg?branch=master)
 
-This is a CLI for Haml-rs on [Crates.io](https://crates.io/crates/hamlrs). The aim for this is to produce identical HTML to what the Ruby [Haml gem](https://rubygems.org/gems/haml) produces.
+This is a CLI for Haml-rs on [Crates.io](https://crates.io/crates/hamlrs-cli). The aim for this is to produce identical HTML to what the Ruby [Haml gem](https://rubygems.org/gems/haml) produces.
 
 ## Usage
 
@@ -10,11 +10,15 @@ In order to install hamlrs you will need Cargo. Once cargo is installed you can 
 
 `cargo install hamlrs-cli`
 
+You can check to ensure that hamlrs was installed by Cargo by running
+
+`hamlrs --version`
+
 ### Stability
 
 This software is in its early stages and as such there may be issues with stability.
 
-If you find any bugs please don't hesitate to open an [issue](https://github.com/jhartwell/haml-rs/issues) on github or, if you want, you can reach out directly to me at jon@dontbreakthebuild.com
+If you find any bugs please don't hesitate to open an [issue](https://github.com/jhartwell/hamlrs-cli/issues) on github or, if you want, you can reach out directly to me at jon@dontbreakthebuild.com
 
 ## License
 
