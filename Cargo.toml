@@ -1,10 +1,10 @@
 [package]
 name = "hamlrs-cli"
-version = "0.1.2"
+version = "0.2.0"
 authors = ["Jon Hartwell <jon@dontbreakthebuild.com>"]
 license = "MIT"
 description = "A CLI for convert [Haml](http://haml.info) templates into HTML"
-respository = "https://github.com/jhartwell/haml-rs"
+respository = "https://github.com/Haml-rs/hamlrs-cli"
 keywords = ["haml", "templating", "template"]
 categories = ["command-line-interface", "parser-implementations", "template-engine"]
 readme = "README.md"
@@ -15,4 +15,4 @@ name = "hamlrs"
 
 [dependencies]
 clap = "~2.27.0"
-hamlrs = "0.4.0"
+hamlrs = "0.4.1"
