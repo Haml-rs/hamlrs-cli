@@ -1,6 +1,6 @@
 [package]
 name = "hamlrs-cli"
-version = "0.1.0"
+version = "0.4.2"
 authors = ["Jon Hartwell <jon@dontbreakthebuild.com>"]
 license = "MIT"
 description = "A CLI for convert [Haml](http://haml.info) templates into HTML"
@@ -15,4 +15,4 @@ name = "hamlrs"
 
 [dependencies]
 clap = "~2.27.0"
-hamlrs = "0.3.0"
+hamlrs = "0.4.2"
